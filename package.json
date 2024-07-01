@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ct-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.45.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2"
+  }
+}
