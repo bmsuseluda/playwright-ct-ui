@@ -9,10 +9,10 @@ As you can see in the snapshot created by playwright the button should have a bo
 
 Sadly in the playwright ui the border radius and paddings are not visible:
 
-![playwright ui rendering.png](src/components/ButtonWithStyledComponents/playwright ui rendering.png)
+![playwright ui rendering.png](src/components/ButtonWithStyledComponents/playwright-ui-rendering.png)
 
 In the chromium developer tools i can see that the css attributes are not in the correct order:
-![dev tools.png](src/components/ButtonWithStyledComponents/dev tools.png)
+![dev tools.png](src/components/ButtonWithStyledComponents/dev-tools.png)
 
 Interestingly the playwright ui renders correctly with css modules instead of styled components.
 In both cases the snapshots will be rendered correctly.
